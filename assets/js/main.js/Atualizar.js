@@ -1,0 +1,13 @@
+
+ function atualizar(){
+      location.reload();
+
+    }
+
+
+
+
+
+
+
+
