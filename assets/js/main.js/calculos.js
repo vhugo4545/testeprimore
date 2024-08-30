@@ -23,15 +23,15 @@ function obterResposta() {
   const buffetPorConvidado = 110;
 
   // Espaço
-  const valorVendaSegundaAQuintaMeyer = 11350;
-  const valorVendaSextaMeyer = 17700;
-  const valorVendaSabadoMeyer = 31400;
-  const valorVendaDomingoMeyer = 24000;
+  const valorVendaSegundaAQuintaMeyer = 14485;
+  const valorVendaSextaMeyer = 21470;
+  const valorVendaSabadoMeyer = 36540;
+  const valorVendaDomingoMeyer = 28400;
 
-  const valorVendaSegundaAQuintaGiardino= 11350-3000;
-  const valorVendaSextaGiardino = 17700-3000;
-  const valorVendaSabadoGiardino = 31400-3000;
-  const valorVendaDomingoGiardino = 24000-3000;
+  const valorVendaSegundaAQuintaGiardino= 11185 ;
+  const valorVendaSextaGiardino = 18720;
+  const valorVendaSabadoGiardino = 33240;
+  const valorVendaDomingoGiardino = 25980;
 
 
   // Decoração
