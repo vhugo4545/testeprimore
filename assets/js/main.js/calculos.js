@@ -141,6 +141,34 @@ if(anoDoEvento==2025){
   document.getElementById("valor_decoração").innerHTML = Math.round(((valorFinalDecoracao-cerimonia)*1.1)*1.1)
 
 }
+if(anoDoEvento==2026){
+  document.getElementById("Meyer_segunda_quinta").innerHTML = Math.round((((meyerSegAQuinta+valorOpcionais)*1.1)*1.1)*1.1)
+  document.getElementById("Meyer_Sexta").innerHTML = Math.round((((meyerSexta+valorOpcionais)*1.1)*1.1)*1.1)
+  document.getElementById("Meyer_Sabado").innerHTML = Math.round((((meyerSabado+valorOpcionais)*1.1)*1.1)*1.1)
+  document.getElementById("Meyer_Domingo").innerHTML = Math.round((((meyerDomingo+valorOpcionais)*1.1)*1.1)*1.1)
+  
+  document.getElementById("Giardino_segunda_quinta").innerHTML = Math.round((((giardinoSegAQuinta+valorOpcionais)*1.1)*1.1)*1.1)
+  document.getElementById("Giardino_Sexta").innerHTML = Math.round((((giardinoSexta+valorOpcionais)*1.1)*1.1)*1.1)
+  document.getElementById("Giardino_Sabado").innerHTML = Math.round((((giardinoSabado+valorOpcionais)*1.1)*1.1)*1.1)
+  document.getElementById("Giardino_Domingo").innerHTML = Math.round((((giardinoDomingo+valorOpcionais)*1.1)*1.1)*1.1)
+
+  document.getElementById("Giardino_segunda_quinta_mesDeBaixa").innerHTML = Math.round((((giardinoSegAQuinta+valorOpcionais)/100)*90) )
+  document.getElementById("Giardino_Sexta_mesDeBaixa").innerHTML = Math.round((((giardinoSexta+valorOpcionais)/100)*90) )
+  document.getElementById("Giardino_Sabado_mesDeBaixa").innerHTML = Math.round((((giardinoSabado+valorOpcionais )/100)*90) )
+  document.getElementById("Giardino_Domingo_mesDeBaixa").innerHTML = Math.round((((giardinoDomingo+valorOpcionais)/100)*90) )
+  
+  document.getElementById("Meyer_segunda_quinta_mesDeBaixa").innerHTML = Math.round((((meyerSegAQuinta+valorOpcionais)/100)*90) )
+  document.getElementById("Meyer_Sexta_mesDeBaixa").innerHTML = Math.round((((meyerSexta+valorOpcionais)/100)*90) )
+  document.getElementById("Meyer_Sabado_mesDeBaixa").innerHTML = Math.round((((meyerSabado+valorOpcionais )/100)*90) )
+  document.getElementById("Meyer_Domingo_mesDeBaixa").innerHTML = Math.round((((meyerDomingo+valorOpcionais)/100)*90) )
+  
+  document.getElementById("mesasdecoração").innerHTML = oitentaPorcentoDosConvidados
+  document.getElementById("ValorTotalOpcionais").innerHTML = Math.round(((((valorOpcionais)*1.1)*1.1))*1.1)
+  document.getElementById("valor_buffet").innerHTML = Math.round((((valorFinalBuffet)*1.1)*1.1)*1.1)
+  document.getElementById("cerimonia").innerHTML = Math.round((((cerimonia)*1.1)*1.1)*1.1)
+  document.getElementById("valor_decoração").innerHTML = Math.round((((valorFinalDecoracao-cerimonia)*1.1)*1.1)*1.1)
+
+}
 
 }
 
